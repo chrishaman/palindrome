@@ -1,10 +1,13 @@
-print("""
+print(
+ """
  _______________________________________
 |                                       |
 |*Let's see which words are Polindrome!*|
 |_______________________________________|
 
-""")
+"""
+)
+
 
 def palindrome_test():
     while True:
@@ -15,11 +18,12 @@ def palindrome_test():
             break
 
         elif word == word[::-1]:
-            print('Palindrome!\n')
+            print("Palindrome!\n")
 
         else:
             print("Not a Palindrome!\n")
-    
+
     print("\nEnd of program!")
+
 
 palindrome_test()
