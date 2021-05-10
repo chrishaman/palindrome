@@ -1,5 +1,5 @@
 print(
- """
+    """
  _______________________________________
 |                                       |
 |*Let's see which words are Polindrome!*|
